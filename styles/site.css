@@ -1,0 +1,819 @@
+:root {
+  /*Custom Property Advanced Property*/
+  --backgroundcolor: black;
+  --fontcolor: white;
+  --accentcolor: wheat;
+  --formbackground: rgb(230, 227, 227);
+}
+
+.navbar {
+  background-color: black;
+  height: 12vw;
+  border: solid 2px var(--backgroundcolor);
+  text-align: center;
+  margin-block-end: 5%;
+}
+
+
+main {
+  background-color: var(--backgroundcolor);
+}
+
+
+.indexbody {
+  background-color: var(--backgroundcolor);
+}
+
+.bizname {
+  color: white;
+  text-shadow: 5px 5px 5px wheat, 0 0 25px wheat, 0 0 5px black;
+  font-family: Sail, sans-serif;
+  text-align: center;
+  font-size: 2.3em;
+  border: solid 5px white;
+  margin-block: 2%;
+  box-shadow: 5px 5px 0px 0px wheat;
+  border-radius: 5px;
+  background-image: url(/images/floor-1256804_1280.jpg);
+  background-position: cover;
+  background-repeat: repeat;
+  background-color: #e6c17c;
+  animation-name: colorchange;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes colorchange{
+  from {
+    color: white;
+  }
+  to{
+    color:wheat;
+  }
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 4px wheat;
+  font-weight: 800;
+  font-size: 50%;
+  text-align: center;
+}
+.logonav {
+  width: 4%;
+  margin-block-start: 2%;
+  display: inline-block;
+  padding-inline-start: 2%;
+  animation-name: sizeincrease;
+  animation-duration: 6s;
+  
+}
+@keyframes sizeincrease{ /*Keyframe Animation */
+  from{
+    width:4%;
+  }
+  to{
+    width:6%;
+  }
+}
+ul li {
+  display: inline-block;
+  padding: 2%;
+  text-align: center;
+}
+.homebody {
+  background-color: #000000;
+}
+
+.slogan {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.welcoming {
+  color: white;
+  font-size: 1rem;
+  font-weight: 1000;
+  letter-spacing: 0.5px;
+  background-color: rgb(211, 175, 108);
+  box-shadow: 10px 10px 0px 0px #ad750c;
+  border: solid white 2px;
+  margin-block: 10%;
+}
+.indexpara {
+  background-color: rgb(211, 175, 108);
+  color: white;
+  border: solid white 2px;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  box-shadow: 10px 10px 0px 0px #ad750c;
+  font-weight: 1000;
+}
+
+.speciality {
+  font-style: oblique;
+  font-weight: 1000;
+  font-size: 1em;
+}
+.paragraphlink {
+  color: white;
+  font-size: 1rem;
+}
+
+.logo {
+  width: 15%;
+  justify-content: center;
+}
+
+.gridimages {
+  display: grid;
+}
+td {
+  padding: 10px;
+  text-align: center;
+  border: 3px solid rgb(172, 118, 47);
+  font-size: 1em;
+  font-family: Croissant, sans-serif;
+  background-color: wheat;
+  color: black;
+}
+.hours {
+  font-family: Sail;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+}
+.indextabledata {
+  background-color: rgb(211, 175, 108);
+}
+
+.slogan {
+  background-color: rgb(19, 18, 18);
+  border: solid 3px;
+  border-block: solid 3px black;
+  border-radius: 5px;
+  padding-inline: 8%;
+  margin-inline: 5%;
+}
+.interior {
+  width: 70%;
+  margin-inline-start: 15%;
+  border: solid 5px black;
+}
+
+a:hover {
+  /*Pseudo-class Advanced Property*/
+  text-decoration: underline;
+
+  color: wheat;
+}
+
+.coffeecups {
+  display: grid;
+  /*Grid Advanced Property*/
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  gap: 1em;
+  overflow: auto;
+}
+
+.coffeecups .gridimages {
+  position: relative;
+  border-radius: 2rem;
+  border: 2px solid white;
+  max-width: 50%;
+  width: 40%;
+  height: auto;
+  margin-block: 5%;
+  align-items: center;
+  float: right;
+  /*Images floated for home page*/
+}
+
+footer {
+  text-align: center;
+  margin-block-start: 10%;
+}
+.lalala{
+  padding-block-start: 5%;
+}
+
+.number,
+.email {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+
+  font-size: 3vw;
+}
+
+.email {
+  text-align: center;
+}
+
+address p {
+  color: var(--fontcolor);
+  text-align: center;
+  font-size: 2vw;
+}
+
+.firstsource,
+.secondsource,
+a {
+  color: var(--fontcolor);
+  text-align: center;
+  font-size: 2vw;
+}
+.menunav {
+  background-color: gray;
+  height: 30%;
+  padding-block-start: 10px;
+  text-align: center;
+  margin-block-end: 5%;
+}
+
+.menubody {
+  background-color: black;
+}
+
+.menutitle {
+  color: var(--fontcolor);
+  text-align: center;
+  font-family: Sail, sans-serif;
+  font-size: 3em;
+}
+.menuheader {
+  border: solid white 5px;
+  color: rgb(245, 245, 245);
+  font-weight: 1000;
+  font-weight: bolder;
+  background-image: url(/images/drink-1839134_1280.jpg);
+  background-size: cover;
+  margin-block-start: 2%;
+}
+.menufooter {
+  margin-block-start: 2%;
+}
+
+.yellowcup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-block: 5%;
+}
+
+.coffeemenu {
+  color: white;
+  overflow-x: auto;
+  
+}
+.snacksmenu {
+  margin-block: 10%;
+  margin-inline-end: 10%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-inline: 10px;
+}
+
+th {
+  color: white;
+  font-size: 1.2em;
+  font-family: Sail;
+  border: 3px solid rgb(172, 118, 47);
+  background-color: #775409;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 3px solid rgb(172, 118, 47);
+  font-size: 1em;
+  font-family: Croissant, sans-serif;
+  background-color: wheat;
+  color: black;
+}
+.tableimg {
+  margin: 0;
+}
+
+.envirsection {
+  background-color: wheat;
+  border: solid 5px white;
+  border-radius: 8px;
+  margin-block-start: 2%;
+}
+
+.envircommitment {
+  font-family: Sail, sans-serif;
+  font-weight: 900;
+  font-size: 2.7em;
+  text-align: center;
+  color: rgb(10, 88, 10);
+}
+
+.footprint {
+  font-size: 1.2em;
+  padding-inline: 15%;
+}
+
+.treeimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  
+  border: solid white 5px;
+}
+
+.areaoffocus {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  padding-inline: 2.5vw;
+  color: white;
+}
+.areaoffocus > h2 {
+  font-family: Sail;
+}
+
+.packaging {
+  margin-block-start: 4em;
+  float: left;
+  padding-inline-start: 25%;
+  font-size: 3vw;
+  font-weight: 800;
+  color: white;
+  margin-block-end: 8%;
+}
+
+.browncup {
+  width: 25%;
+  float: left;
+  margin-inline: 5%;
+}
+
+.envirbody {
+  background-color: black;
+}
+
+.peopleintro {
+  text-align: center;
+  padding-inline: 10px;
+  border: solid 5px white;
+  background-color: wheat;
+}
+
+.peopletitle {
+  font-variant: small-caps;
+  font-size: 1.5rem;
+}
+
+.peoplebody {
+  background-color: var(--accentcolor);
+}
+.peoplefooter {
+  color: black;
+  background-color: black;
+}
+
+.peopleintro > p {
+  font-size: 1.2em;
+  padding-inline: 5%;
+}
+
+.community {
+  border: 5px solid;
+
+  background-color: black;
+  margin-block: 5vw;
+}
+
+.dedicated {
+  color: white;
+  padding-inline: 5vw;
+  font-size: 2.5vw;
+}
+
+.community > h2 {
+  color: var(--fontcolor);
+  text-align: center;
+  font-size: 3em;
+  font-family: Rochester, sans-serif;
+}
+
+.coffeedesign {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.form {
+  background-color: var(--formbackground);
+  text-align: center;
+  margin-inline: 5%;
+  margin-block-start: 5%;
+  border-radius: 10px;
+  height: 80%;
+}
+
+button[type="submit"] {
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  padding: 10px;
+  margin-block: 5%;
+  font-weight: 900;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.info {
+  text-align: center;
+  padding-inline: 5px;
+  margin-block: 5%;
+}
+
+.comments {
+  margin-block: 5%;
+}
+.questions {
+  margin-block: 8%;
+  margin-inline: 8%;
+}
+.contactheader {
+  font-size: 3em;
+  font-weight: 1000;
+  background-image: linear-gradient(to left, #e6c17c, #775409);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: Sail;
+}
+.formsection {
+  color: black;
+  padding: 5%;
+  border: white solid 5px;
+  border-radius: 10px;
+  margin-inline: 5%;
+  margin-block: 2%;
+  height: 20%;
+  background-color: #e6c17c;
+}
+.formsection p {
+  font-size: 1.5em;
+  padding: 10px;
+}
+#getintouch {
+  font-size: 3em;
+  text-align: center;
+  font-family: Sail;
+}
+.contactimg {
+  width: 30%;
+}
+.connectwith {
+  color: #e6c17c;
+  text-align: center;
+  font-size: 2em;
+  font-family: Sail;
+  font-weight: 400;
+}
+.logocontactus {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.staffbody {
+  background-color: black;
+}
+.staff {
+  background-color: wheat;
+  border: 5px solid white;
+  border-radius: 5px;
+  margin-block: 5%;
+}
+
+.staff h1 {
+  text-align: center;
+  color: black;
+  font-size: 2.5em;
+  font-style: bold;
+  font-family: Sail, sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1.5%;
+}
+.stafftext {
+  float: right;
+  font-size: 0.8rem;
+  padding-inline-start: 5%;
+  color: aliceblue;
+  font-weight: 900;
+}
+.staffimages {
+  margin: auto;
+}
+.staffimages img {
+  border: solid white 4px;
+  width: fit-content;
+  margin-inline: 18%;
+  margin-block-start: 5%;
+}
+.staff p {
+  color: black;
+  padding-inline: 6%;
+}
+.staff h2 {
+  color: wheat;
+  font-size: 1.5em;
+  text-align: center;
+}
+.staffsection {
+  background-color: black;
+}
+.stafffooter {
+  margin-block-start: 40%;
+}
+.jacobsection {
+  border: white 5px solid;
+  background-color: black;
+  margin-inline: 2%;
+  border-radius: 5%;
+}
+.testtitle {
+  font-family: Sail;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+.testtitle2 {
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+}
+.testpara {
+  color: #000000;
+}
+.testbox {
+  border: white 5px solid;
+  background-color: wheat;
+}
+.custtest {
+  text-align: center;
+}
+.quote {
+  border: white 5px solid;
+  background-color: wheat;
+  margin-block-start: 5%;
+}
+.testbody {
+  background-color: black;
+}
+.humanface {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.video h2 {
+  color: black;
+  
+}
+.videodesc {
+  color: black;
+}
+.video {
+  background-color: wheat;
+  border: white 5px solid;
+  margin-block-start: 5%;
+}
+.relatedlinks {
+  text-align: center;
+  color: white;
+  font-family: Sail;
+}
+.linksbackground {
+  background-color: black;
+}
+.beansupply {
+  background-image: url(/images/coffee-1324126_640.jpg);
+  background-position: center;
+  background-size: cover;
+  display: block;
+  color: white;
+  font-weight: 800;
+  margin-inline: 5%;
+  border: 5px white solid;
+}
+.beansupply h2 {
+  color: white;
+  font-weight: 1000;
+  text-align: center;
+}
+.machines h2 {
+  color: white;
+  font-weight: 1000;
+  text-align: center;
+}
+.links {
+  display: block;
+  color: white;
+  font-weight: 1000;
+  margin-block: 5%;
+  text-decoration: none;
+  
+}
+#fairtrade {
+  border: 2px solid white;
+  margin-inline: 35%;
+  padding-inline: 10px;
+}
+.machines {
+  background-image: url(/images/coffee-4618705_640.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-inline: 5%;
+  border: 5px white solid;
+  margin-block-start: 5%;
+}
+.industry {
+  background-image: url(/images/agriculture-1846649_640.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-inline: 5%;
+  border: 5px white solid;
+  margin-block-start: 5%;
+}
+.industry h2 {
+  color: white;
+  font-weight: 1000;
+  text-align: center;
+}
+@media (min-width: 750px) {
+  .community{
+    margin-inline: 5%;
+  }
+  .envirsection{
+    margin-inline: 8%;
+  }
+  .treeimg{
+    width:50%;
+  }
+  .envircommitment{
+    font-size: 2em;
+  }
+  .footprint{
+    font-size: 1.5em;
+    padding-inline: 15%;
+  }
+  .relatedlinks{
+    font-size:4em;
+  }
+  .beansupply h2 {
+    font-size: 3em;
+    font-weight: 1200;
+    text-align: center;
+  }
+  .machines h2 {
+    font-size: 3em;
+    font-weight: 1200;
+    text-align: center;
+  }
+  .industry h2{
+    font-size: 3em;
+  }
+  .video {
+    margin-inline: 5%;
+  }
+  .testtitle {
+    font-size: 3em;
+  }
+  .testtitle2 {
+    font-size: 2.2em;
+  }
+  .quote {
+    margin-inline: 5%;
+    font-size: 2.5em;
+  }
+  .staffimages img {
+    border: solid black 4px;
+    width: fit-content;
+    margin-inline: 50%;
+    margin-block-start: 5%;
+  }
+  .jacobsection {
+    border: white 5px solid;
+    margin-inline: 2%;
+    border-radius: 5%;
+  }
+  .coffeecups {
+    grid-template-columns: 1fr;
+    gap: 3em;
+  }
+
+  .coffeecups .gridimages {
+    max-width: 800px;
+  }
+  .interior {
+    width: 50%;
+    margin-inline: 25%;
+    justify-content: center;
+  }
+  .welcoming {
+    font-size: 1.5em;
+    padding-inline: 5%;
+  }
+  .indexpara {
+    font-size: 1.5em;
+    padding-inline: 5%;
+  }
+  .paragraphlink {
+    font-size: 1em;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2%;
+  }
+  .staffimages {
+    margin-inline: 15%;
+    width: 25%;
+  }
+  .stafftext {
+    font-size: 1.2rem;
+    padding-inline: 5%;
+  }
+  .staff h1 {
+    font-size: 3em;
+  }
+  .staff p {
+    font-size: 1.5em;
+  }
+  .stafffooter {
+    margin-block-start: 10%;
+  }
+  ul li a {
+    font-size: 1.2em;
+  }
+  .bizname {
+    background-image: url(/images/floor-1256804_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+    font-size: 3em;
+  }
+  #getintouch {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .menuheader {
+    border: solid white 5px;
+    color: rgb(245, 245, 245);
+    font-weight: 1000;
+    font-weight: bolder;
+    background-image: url(/images/drink-1839134_1280.jpg);
+    background-size: cover;
+    height: 38vw;
+    font-size: 2em;
+  }
+  .formsection p {
+    font-size: 2em;
+  }
+  th {
+    font-size: 2em;
+  }
+  .areaoffocus {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .areaoffocus > h2 {
+    font-size: 3em;
+    color: white;
+  }
+  .envircommitment {
+    font-size: 4em;
+  }
+  .peopletitle {
+    font-size: 2em;
+  }
+  .form {
+    margin-inline: 25%;
+  }
+
+  button[type="submit"] {
+    margin-block: 2%;
+  }
+}
